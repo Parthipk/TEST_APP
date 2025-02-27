@@ -1,0 +1,201 @@
+
+  
+  .booking-summary {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .booking-summary ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .booking-summary button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 25px; 
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .booking-summary button:hover {
+    background-color: #45a049;
+  }
+
+  .cart-section {
+    margin: 20px;
+    padding: 10px;
+    width: 80%;
+    margin:50px auto;
+    color: #09122C;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+    
+  }
+  .movie-poster-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .cart-section h1 {
+    font-size: 28px;
+  }
+  
+  .cart-section p {
+    font-size: 18px;
+   
+    color: #ddd;
+  }
+  
+
+
+  h1, h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  p {
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+
+  
+.booking-summary {
+  margin-top: 30px;
+  text-align: left;
+  max-width: 600px;
+  color: white;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #09122C;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-summary h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.booking-summary ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.booking-summary ul li {
+  font-size: 18px;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.booking-summary h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  color: white;
+}
+
+.booking-summary button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.booking-summary button:hover {
+  background-color: #45a049;
+}  
+  
+
+
+.seat-booking {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap; 
+}
+
+.seat {
+  width: 80px;
+  height: 80px; 
+  margin: 10px; 
+  border-radius: 10px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 18px; 
+  transition: background-color 0.3s ease; 
+}
+
+.seat.selected {
+  background-color: green;
+}
+
+.seat-grid {
+  margin: 20px 0;
+}
+
+.error-message {
+  color: red;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1024px) {
+  .seat {
+    width: 70px;  
+    height: 70px;  
+    font-size: 16px; 
+  }
+
+  .seat-grid {
+    margin: 15px 0; 
+  }
+}
+
+@media (max-width: 768px) {
+  .seat {
+    width: 60px;  
+    height: 60px;
+    font-size: 14px;  
+    margin: 8px;  
+  }
+
+  .seat-grid {
+    margin: 10px 0; 
+  }
+}
+
+@media (max-width: 480px) {
+  .seat {
+    width: 50px; 
+    height: 50px; 
+    font-size: 12px;  
+    margin: 6px; 
+  }
+
+  .seat-grid {
+    margin: 10px 0;  
+  }
+
+  .error-message {
+    font-size: 1rem; 
+  }
+}
